@@ -1,0 +1,19 @@
+name: Deploy Staging (TestFlight)
+
+on:
+  push:
+    branches: ['release/**', 'hotfix/**']
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-staging
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    uses: iletai/ios-shared/.github/workflows/ios-testflight.yml@main
+    with:
+      environment: staging
+      xcode-version: latest-stable
+      xcconfig-secrets: MICROCMS_API_KEY
+    secrets: inherit

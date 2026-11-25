@@ -1,0 +1,6 @@
+// Production backend + store values, shared by Staging and Prod (included by both).
+// Set once the ASC record exists; $() keeps // from starting a comment:
+// APP_STORE_URL = https:/$()/apps.apple.com/app/id<ASC_APP_ID>
+APP_STORE_URL =
+// microCMS tenant for Staging + Prod; the GET-only key goes in Secrets.xcconfig.
+MICROCMS_SERVICE_DOMAIN = purgeswipe

@@ -1,0 +1,15 @@
+---
+description: PurgeSwipe iOS project conventions
+alwaysApply: true
+---
+
+Read `AGENTS.md` at the repository root before changing code. Non-negotiables:
+
+- Keep onboarding, settings, help/FAQ, about, and in-app privacy/terms links.
+- Restorable purchases need Restore Purchases on the paywall and in Settings.
+- Account creation requires in-app account deletion.
+- Request permissions at the moment of use; no launch-time prompts.
+- Dynamic Type, VoiceOver labels, 44×44 pt targets, light/dark contrast, Reduce Motion.
+- All user-facing copy in `Localizable.xcstrings` (vi + en); permission strings in `InfoPlist.xcstrings`.
+- `project.yml` is the source of truth; run `xcodegen generate` after editing it.
+- Build/test with `PurgeSwipe-Dev`; heavy work runs on GitHub Actions.

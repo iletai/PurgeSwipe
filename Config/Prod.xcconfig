@@ -1,0 +1,14 @@
+#include "Shared.xcconfig"
+#include "Backend-Prod.xcconfig"
+
+APP_ENV = prod
+APP_BUNDLE_IDENTIFIER = com.iletai.purgeswipe
+APP_DISPLAY_NAME = PurgeSwipe
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+CODE_SIGN_ENTITLEMENTS = Config/Entitlements/PurgeSwipe-Prod.entitlements
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) PROD
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+// Prod ASC record's subscription group id (App Store Connect → Subscriptions).
+SUBSCRIPTION_GROUP_ID =
+// Replace with the real AdMob app ID before release (sample ads otherwise):
+// ADMOB_APP_ID = ca-app-pub-<publisher>~<app>

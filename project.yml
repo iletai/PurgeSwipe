@@ -1,0 +1,222 @@
+name: PurgeSwipe
+options:
+  bundleIdPrefix: com.iletai
+  xcodeVersion: "26.0"
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+  developmentLanguage: vi
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    # Lets Xcode extract String(localized:)/Text keys into the string catalogs.
+    SWIFT_EMIT_LOC_STRINGS: YES
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+
+configs:
+  Debug-Dev: debug
+  Release-Dev: release
+  Debug-Staging: debug
+  Release-Staging: release
+  Debug-Prod: debug
+  Release-Prod: release
+
+# One xcconfig per environment; contract in skill ios-new-app references/environments.md.
+configFiles:
+  Debug-Dev: Config/Dev.xcconfig
+  Release-Dev: Config/Dev.xcconfig
+  Debug-Staging: Config/Staging.xcconfig
+  Release-Staging: Config/Staging.xcconfig
+  Debug-Prod: Config/Prod.xcconfig
+  Release-Prod: Config/Prod.xcconfig
+
+# Own libraries (versions + integration snippets): skill `iletai-libs`; new_app.sh --with adds them here.
+packages:
+  BaseNavigationStack:
+    url: https://github.com/iletai/BaseNavigationStack.git
+    from: 2.1.0
+  AppUpdateKit:
+    url: https://github.com/iletai/AppUpdateKit.git
+    from: 1.2.0
+  GoogleMobileAds:
+    url: https://github.com/googleads/swift-package-manager-google-mobile-ads.git
+    from: 13.12.0
+
+targets:
+  PurgeSwipe:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+    settings:
+      base:
+        # Own variable: a project-level PRODUCT_BUNDLE_IDENTIFIER would also give the test bundles the app's id.
+        PRODUCT_BUNDLE_IDENTIFIER: $(APP_BUNDLE_IDENTIFIER)
+        TARGETED_DEVICE_FAMILY: "1"
+      configs:
+        # Debug-* keep DEBUG on top of the env condition from the xcconfig (partial match on config name).
+        debug:
+          SWIFT_ACTIVE_COMPILATION_CONDITIONS: $(inherited) DEBUG
+    dependencies:
+      - package: BaseNavigationStack
+      - package: AppUpdateKit
+      - package: GoogleMobileAds
+    info:
+      path: App/Info.plist
+      properties:
+        # Xcode silently drops INFOPLIST_KEY_<custom> build settings, so every custom key lives here.
+        UILaunchScreen: {}
+        CFBundleDisplayName: $(APP_DISPLAY_NAME)
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        # Only Apple's built-in encryption; avoids "Missing Compliance" on every build.
+        ITSAppUsesNonExemptEncryption: false
+        # Store page for update prompts / share links; empty until the ASC record exists.
+        APP_STORE_URL: $(APP_STORE_URL)
+        # dev | staging | prod, read by AppConfiguration.environment.
+        APP_ENV: $(APP_ENV)
+        # In-app legal/support links (apps-site). Literal URLs here: xcconfig would cut them at "//".
+        SUPPORT_EMAIL: $(SUPPORT_EMAIL)
+        PRIVACY_POLICY_URL: https://apps-site-six.vercel.app/apps/purgeswipe/privacy
+        SUPPORT_URL: https://apps-site-six.vercel.app/apps/purgeswipe/support
+        TERMS_OF_USE_URL: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+        NSHumanReadableCopyright: "© 2026 iletai"
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        # Subscription group of this environment's ASC record (Dev: same id as App/StoreKit/Products.storekit).
+        SUBSCRIPTION_GROUP_ID: $(SUBSCRIPTION_GROUP_ID)
+        MICROCMS_API_KEY: $(MICROCMS_API_KEY)
+        MICROCMS_SERVICE_DOMAIN: $(MICROCMS_SERVICE_DOMAIN)
+        GADApplicationIdentifier: $(ADMOB_APP_ID)
+        NSUserTrackingUsageDescription: "Cho phép theo dõi để quảng cáo phù hợp hơn với bạn. Bạn vẫn dùng đầy đủ tính năng nếu từ chối."
+        # Google's SKAdNetwork list (copied from Serene); refresh from the AdMob docs when it changes.
+        SKAdNetworkItems:
+          - SKAdNetworkIdentifier: cstr6suwn9.skadnetwork
+          - SKAdNetworkIdentifier: 4fzdc2evr5.skadnetwork
+          - SKAdNetworkIdentifier: 2fnua5tdw4.skadnetwork
+          - SKAdNetworkIdentifier: ydx93a7ass.skadnetwork
+          - SKAdNetworkIdentifier: p78axxw29g.skadnetwork
+          - SKAdNetworkIdentifier: v72qych5uu.skadnetwork
+          - SKAdNetworkIdentifier: ludvb6z3bs.skadnetwork
+          - SKAdNetworkIdentifier: cp8zw746q7.skadnetwork
+          - SKAdNetworkIdentifier: 3sh42y64q3.skadnetwork
+          - SKAdNetworkIdentifier: c6k4g5qg8m.skadnetwork
+          - SKAdNetworkIdentifier: s39g8k73mm.skadnetwork
+          - SKAdNetworkIdentifier: wg4vff78zm.skadnetwork
+          - SKAdNetworkIdentifier: 3qy4746246.skadnetwork
+          - SKAdNetworkIdentifier: f38h382jlk.skadnetwork
+          - SKAdNetworkIdentifier: hs6bdukanm.skadnetwork
+          - SKAdNetworkIdentifier: mlmmfzh3r3.skadnetwork
+          - SKAdNetworkIdentifier: v4nxqhlyqp.skadnetwork
+          - SKAdNetworkIdentifier: wzmmz9fp6w.skadnetwork
+          - SKAdNetworkIdentifier: su67r6k2v3.skadnetwork
+          - SKAdNetworkIdentifier: yclnxrl5pm.skadnetwork
+          - SKAdNetworkIdentifier: t38b2kh725.skadnetwork
+          - SKAdNetworkIdentifier: 7ug5zh24hu.skadnetwork
+          - SKAdNetworkIdentifier: gta9lk7p23.skadnetwork
+          - SKAdNetworkIdentifier: vutu7akeur.skadnetwork
+          - SKAdNetworkIdentifier: y5ghdn5j9k.skadnetwork
+          - SKAdNetworkIdentifier: v9wttpbfk9.skadnetwork
+          - SKAdNetworkIdentifier: n38lu8286q.skadnetwork
+          - SKAdNetworkIdentifier: 47vhws6wlr.skadnetwork
+          - SKAdNetworkIdentifier: kbd757ywx3.skadnetwork
+          - SKAdNetworkIdentifier: 9t245vhmpl.skadnetwork
+          - SKAdNetworkIdentifier: a2p9lx4jpn.skadnetwork
+          - SKAdNetworkIdentifier: 22mmun2rn5.skadnetwork
+          - SKAdNetworkIdentifier: 44jx6755aq.skadnetwork
+          - SKAdNetworkIdentifier: k674qkevps.skadnetwork
+          - SKAdNetworkIdentifier: 4468km3ulz.skadnetwork
+          - SKAdNetworkIdentifier: 2u9pt9hc89.skadnetwork
+          - SKAdNetworkIdentifier: 8s468mfl3y.skadnetwork
+          - SKAdNetworkIdentifier: klf5c3l5u5.skadnetwork
+          - SKAdNetworkIdentifier: ppxm28t8ap.skadnetwork
+          - SKAdNetworkIdentifier: kbmxgpxpgc.skadnetwork
+          - SKAdNetworkIdentifier: uw77j35x4d.skadnetwork
+          - SKAdNetworkIdentifier: 578prtvx9j.skadnetwork
+          - SKAdNetworkIdentifier: 4dzt52r2t5.skadnetwork
+          - SKAdNetworkIdentifier: tl55sbb4fm.skadnetwork
+          - SKAdNetworkIdentifier: c3frkrj4fj.skadnetwork
+          - SKAdNetworkIdentifier: e5fvkxwrpn.skadnetwork
+          - SKAdNetworkIdentifier: 8c4e2ghe7u.skadnetwork
+          - SKAdNetworkIdentifier: 3rd42ekr43.skadnetwork
+          - SKAdNetworkIdentifier: 97r2b46745.skadnetwork
+          - SKAdNetworkIdentifier: 3qcr597p9d.skadnetwork
+
+  PurgeSwipeTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        # CODE_SIGN_ENTITLEMENTS comes from the project-level xcconfig (app entitlements); a test bundle must not claim them.
+        CODE_SIGN_ENTITLEMENTS: ""
+    dependencies:
+      - target: PurgeSwipe
+
+  PurgeSwipeUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: UITests
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        # CODE_SIGN_ENTITLEMENTS comes from the project-level xcconfig (app entitlements); a test bundle must not claim them.
+        CODE_SIGN_ENTITLEMENTS: ""
+    dependencies:
+      - target: PurgeSwipe
+
+schemes:
+  # Dev owns the test targets; every scheme archives with its Release-* config.
+  PurgeSwipe-Dev:
+    build:
+      targets:
+        PurgeSwipe: all
+        PurgeSwipeTests: [test]
+        PurgeSwipeUITests: [test]
+    run:
+      config: Debug-Dev
+      storeKitConfiguration: App/StoreKit/Products.storekit
+    test:
+      config: Debug-Dev
+      gatherCoverageData: true
+      coverageTargets:
+        - PurgeSwipe
+      targets:
+        - PurgeSwipeTests
+        - PurgeSwipeUITests
+    profile:
+      config: Release-Dev
+    analyze:
+      config: Debug-Dev
+    archive:
+      config: Release-Dev
+  PurgeSwipe-Staging:
+    build:
+      targets:
+        PurgeSwipe: all
+    run:
+      config: Debug-Staging
+    profile:
+      config: Release-Staging
+    analyze:
+      config: Debug-Staging
+    archive:
+      config: Release-Staging
+  PurgeSwipe:
+    build:
+      targets:
+        PurgeSwipe: all
+    run:
+      config: Debug-Prod
+    profile:
+      config: Release-Prod
+    analyze:
+      config: Debug-Prod
+    archive:
+      config: Release-Prod
