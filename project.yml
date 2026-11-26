@@ -187,6 +187,7 @@ schemes:
       storeKitConfiguration: App/StoreKit/Products.storekit
     test:
       config: Debug-Dev
+      storeKitConfiguration: App/StoreKit/Products.storekit
       gatherCoverageData: true
       coverageTargets:
         - PurgeSwipe

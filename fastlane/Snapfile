@@ -1,5 +1,5 @@
 # 6.9" is the only size App Store Connect requires; smaller sizes are scaled from it.
-devices(["iPhone 17 Pro Max"])
+devices(["iPhone 18 Pro Max"])
 languages(["vi", "en-US"])
 scheme("PurgeSwipe-Dev")
 only_testing(["PurgeSwipeUITests/SnapshotUITests"])
