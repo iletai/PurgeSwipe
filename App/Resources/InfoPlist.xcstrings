@@ -1,7 +1,40 @@
 {
   "sourceLanguage" : "vi",
   "strings" : {
-
+    "NSPhotoLibraryUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PurgeSwipe reads your photo library on this iPhone to find screenshots, similar shots and blurry photos. Nothing is uploaded. You can also allow access to selected photos only."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PurgeSwipe đọc thư viện ảnh ngay trên iPhone này để tìm ảnh chụp màn hình, ảnh tương tự và ảnh mờ. Không có gì được tải lên. Bạn cũng có thể chỉ cho phép một số ảnh đã chọn."
+          }
+        }
+      }
+    },
+    "NSUserTrackingUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow tracking so ads are more relevant to you. You can still use every feature if you decline."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cho phép theo dõi để quảng cáo phù hợp hơn với bạn. Bạn vẫn dùng đầy đủ tính năng nếu từ chối."
+          }
+        }
+      }
+    }
   },
   "version" : "1.0"
 }

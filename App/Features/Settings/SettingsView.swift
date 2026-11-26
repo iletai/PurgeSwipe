@@ -4,7 +4,6 @@ import UIKit
 
 /// Settings hub: appearance, support, legal links, about. `--with storekit` adds a Purchases section.
 struct SettingsView: View {
-    @Environment(\.dismiss) private var dismiss
     @Environment(\.openURL) private var openURL
     @Environment(\.requestReview) private var requestReview
     @AppStorage(AppAppearance.storageKey) private var appearance = AppAppearance.system.rawValue
@@ -12,19 +11,16 @@ struct SettingsView: View {
     var body: some View {
         Form {
             appearanceSection
+            PurchasesSection()
             supportSection
             legalSection
             aboutSection
-            PurchasesSection()
         }
+        .scrollContentBackground(.hidden)
+        .background(Palette.background)
         .navigationTitle("settings.title")
         .navigationBarTitleDisplayMode(.inline)
-        .toolbar {
-            ToolbarItem(placement: .confirmationAction) {
-                Button("settings.done") { dismiss() }
-                    .accessibilityIdentifier("settings.done")
-            }
-        }
+        .accessibilityIdentifier("settings.root")
     }
 
     private var appearanceSection: some View {

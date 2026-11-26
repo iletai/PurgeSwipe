@@ -44,7 +44,6 @@ struct PurgeSwipeApp: App {
                     }
                 }
                 .appUpdateSheet(action: $updateAction, accentColor: .accentColor)
-                .task { await Ads.start() }
         }
     }
 }

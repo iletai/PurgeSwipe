@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ADMOB_BANNER_UNIT_ID</key>
+	<string>$(ADMOB_BANNER_UNIT_ID)</string>
 	<key>APP_ENV</key>
 	<string>$(APP_ENV)</string>
 	<key>APP_STORE_URL</key>
@@ -34,6 +36,8 @@
 	<string>$(MICROCMS_SERVICE_DOMAIN)</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>© 2026 iletai</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>PurgeSwipe reads your photo library on this iPhone to find screenshots, similar shots and blurry photos. Nothing is uploaded. You can also allow access to selected photos only.</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>Cho phép theo dõi để quảng cáo phù hợp hơn với bạn. Bạn vẫn dùng đầy đủ tính năng nếu từ chối.</string>
 	<key>PRIVACY_POLICY_URL</key>

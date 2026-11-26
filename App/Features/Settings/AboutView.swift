@@ -5,6 +5,10 @@ struct AboutView: View {
     var body: some View {
         List {
             Section {
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(verbatim: "PurgeSwipe").font(.headline)
+                    Text("about.tagline").foregroundStyle(.secondary)
+                }
                 LabeledContent("about.version", value: AppInfo.versionDescription)
                 if let copyright = AppInfo.copyright {
                     Text(copyright)

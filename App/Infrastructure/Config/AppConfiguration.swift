@@ -24,6 +24,7 @@ enum AppConfiguration {
     static var supportURL: URL? { string("SUPPORT_URL").flatMap(URL.init(string:)) }
     static var termsURL: URL? { string("TERMS_OF_USE_URL").flatMap(URL.init(string:)) }
     static var supportEmail: String? { string("SUPPORT_EMAIL") }
+    static var bannerAdUnitID: String? { string("ADMOB_BANNER_UNIT_ID") }
 
     /// Custom Info.plist key; nil when missing or empty (unset xcconfig variables expand to "").
     static func string(_ key: String) -> String? {

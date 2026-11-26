@@ -11,3 +11,5 @@ SUPPORT_EMAIL = iletai@hotmail.com
 #include? "Secrets.xcconfig"
 // Google's sample AdMob app ID; the SDK crashes at launch without a valid one.
 ADMOB_APP_ID = ca-app-pub-3940256099942544~1458002511
+// Google's sample banner unit; swap per environment when real ad units exist.
+ADMOB_BANNER_UNIT_ID = ca-app-pub-3940256099942544/2435281174
