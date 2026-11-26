@@ -1,6 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
-  <!-- Placeholder master: replace the artwork, keep 1024x1024 full-bleed (Apple applies the mask). -->
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f6feb"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
-  <rect width="1024" height="1024" fill="url(#g)"/>
-  <circle cx="512" cy="512" r="250" fill="#fff" opacity=".9"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1024" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14B8C4"/>
+      <stop offset="0.5" stop-color="#2F6BFF"/>
+      <stop offset="1" stop-color="#7B3FE4"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DCE6FA"/>
+    </linearGradient>
+    <linearGradient id="photo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14B8C4"/>
+      <stop offset="1" stop-color="#2F6BFF"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF3A6"/>
+      <stop offset="1" stop-color="#FFD23F"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+
+  <!-- motion trail (card moving left) -->
+  <g stroke="#FFFFFF" stroke-linecap="round" stroke-width="28" fill="none">
+    <path d="M800 400H890" opacity="0.5"/>
+    <path d="M785 480H900" opacity="0.35"/>
+    <path d="M800 560H880" opacity="0.2"/>
+  </g>
+
+  <!-- tilted photo card -->
+  <g transform="rotate(-10 512 480)">
+    <rect x="322" y="250" width="400" height="500" rx="64" fill="#2A1A7A" opacity="0.22"/>
+    <rect x="312" y="230" width="400" height="500" rx="64" fill="url(#card)"/>
+    <rect x="352" y="270" width="320" height="310" rx="36" fill="url(#photo)"/>
+    <circle cx="590" cy="344" r="32" fill="#FFFFFF"/>
+    <path d="M352 580V500L450 400L530 500L580 450L672 540V544A36 36 0 0 1 636 580Z" fill="#FFFFFF" opacity="0.95"/>
+    <path d="M352 580V540L440 470L500 540L560 580Z" fill="#7B3FE4" opacity="0.45"/>
+    <rect x="352" y="620" width="200" height="36" rx="18" fill="#2F6BFF" opacity="0.35"/>
+    <circle cx="640" cy="638" r="18" fill="#7B3FE4" opacity="0.5"/>
+  </g>
+
+  <!-- curved swipe-left arrow -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="40" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M800 790Q520 910 250 800"/>
+    <path d="M292 880L250 800L336 772"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M775 160Q785 225 850 235Q785 245 775 310Q765 245 700 235Q765 225 775 160Z" fill="url(#spark)"/>
+  <path d="M850 330Q854 361 885 365Q854 369 850 400Q846 369 815 365Q846 361 850 330Z" fill="url(#spark)"/>
 </svg>

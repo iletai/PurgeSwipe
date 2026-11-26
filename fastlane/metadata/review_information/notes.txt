@@ -1,1 +1,5 @@
-Explain anything the reviewer needs: demo account, sample data, sandbox purchase steps.
+PurgeSwipe works entirely on-device. No account or login is needed.
+1. On first launch, grant Photos access (full or limited). Pick a deck on Home (Screenshots, Similar, Blurry, Large videos).
+2. Swipe left to mark a photo for deletion, right to keep. Open the review screen and tap "Delete". Deletion uses the standard iOS system confirmation; items go to Recently Deleted.
+3. Pro (paywall appears when a locked deck is tapped or the free daily cap is reached): sandbox purchase of the yearly/monthly subscription or the lifetime product. Restore Purchases is on the paywall and in Settings.
+Ads: banner ads (Google AdMob) appear on Home and Review for free users; the ATT prompt appears after onboarding.
