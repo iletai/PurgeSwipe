@@ -42,3 +42,14 @@ Replace the placeholder home copy before shipping, and keep the privacy policy a
 | push annotated tag `x.y.z` (on `main`, no `v`) | Prod → App Store upload, owner approves; never auto-submits |
 
 Flow: `feature/*` → PR into `develop` → `release/x.y.z` (version bump, CHANGELOG, notes) → PR into `main` (merge commit) → tag `x.y.z` on the merge commit → PR `main` into `develop`. Hotfix: `hotfix/x.y.z` from `main`, same ending. Merge commits only, conventional commits, tags never moved, one release/hotfix branch at a time, build numbers set by CI.
+
+---
+
+## License
+
+Copyright (c) 2026 Le Quang Trong Tai. All rights reserved.
+
+This repository is proprietary and source-available for viewing only.
+No permission is granted to use, copy, modify, distribute, or create
+derivative works from this code without prior written permission.
+See [LICENSE](LICENSE) for the full terms.
