@@ -11,6 +11,8 @@ struct PaywallView: View {
                 benefits
             }
             .storeButton(.visible, for: .restorePurchases)
+            // The host sheet already shows a Close button; hide the store view's own X.
+            .storeButton(.hidden, for: .cancellation)
             ProductView(id: Store.lifetimeID)
                 .productViewStyle(.compact)
                 .padding()
