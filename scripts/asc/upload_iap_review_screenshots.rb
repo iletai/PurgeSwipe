@@ -42,9 +42,23 @@ loop do
 end
 puts "#{iaps.size} in-app purchases on app #{app_id}"
 
-iaps.each do |iap|
-  product_id = iap.dig("attributes", "productId")
-  status, existing = call(conn, token, :get, "/v2/inAppPurchases/#{iap['id']}/appStoreReviewScreenshot")
+# Subscriptions are a separate ASC resource: their review screenshot lives under /v1/subscription*.
+subs = []
+_, groups = call(conn, token, :get, "/v1/apps/#{app_id}/subscriptionGroups?limit=200")
+(groups["data"] || []).each do |g|
+  _, list = call(conn, token, :get, "/v1/subscriptionGroups/#{g['id']}/subscriptions?limit=200")
+  subs += list["data"] || []
+end
+puts "#{subs.size} subscriptions on app #{app_id}"
+
+targets = iaps.map { |i| { id: i["id"], name: i.dig("attributes", "productId"), get: "/v2/inAppPurchases/#{i['id']}/appStoreReviewScreenshot",
+                           type: "inAppPurchaseAppStoreReviewScreenshots", rel: ["inAppPurchaseV2", "inAppPurchases"], path: "/v1/inAppPurchaseAppStoreReviewScreenshots" } } +
+          subs.map { |s| { id: s["id"], name: s.dig("attributes", "productId"), get: "/v1/subscriptions/#{s['id']}/appStoreReviewScreenshot",
+                           type: "subscriptionAppStoreReviewScreenshots", rel: ["subscription", "subscriptions"], path: "/v1/subscriptionAppStoreReviewScreenshots" } }
+
+targets.each do |t|
+  product_id = t[:name]
+  status, existing = call(conn, token, :get, t[:get])
   if status == 200 && existing["data"]
     puts "skip #{product_id} (has screenshot)"
     next
@@ -55,11 +69,11 @@ iaps.each do |iap|
     next
   end
 
-  status, reserved = call(conn, token, :post, "/v1/inAppPurchaseAppStoreReviewScreenshots", {
+  status, reserved = call(conn, token, :post, t[:path], {
     data: {
-      type: "inAppPurchaseAppStoreReviewScreenshots",
+      type: t[:type],
       attributes: { fileName: file_name, fileSize: data.bytesize },
-      relationships: { inAppPurchaseV2: { data: { type: "inAppPurchases", id: iap["id"] } } }
+      relationships: { t[:rel][0] => { data: { type: t[:rel][1], id: t[:id] } } }
     }
   })
   abort "reserve failed for #{product_id}: #{status} #{reserved}" unless status == 201
@@ -72,9 +86,9 @@ iaps.each do |iap|
     abort "upload failed for #{product_id}: #{res.status}" unless res.status.between?(200, 299)
   end
 
-  status, committed = call(conn, token, :patch, "/v1/inAppPurchaseAppStoreReviewScreenshots/#{shot_id}", {
+  status, committed = call(conn, token, :patch, "#{t[:path]}/#{shot_id}", {
     data: {
-      type: "inAppPurchaseAppStoreReviewScreenshots",
+      type: t[:type],
       id: shot_id,
       attributes: { uploaded: true, sourceFileChecksum: Digest::MD5.hexdigest(data) }
     }

@@ -11,6 +11,7 @@ options:
 settings:
   base:
     SWIFT_VERSION: "6.0"
+    ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
     # Lets Xcode extract String(localized:)/Text keys into the string catalogs.
     SWIFT_EMIT_LOC_STRINGS: YES
     LOCALIZATION_PREFERS_STRING_CATALOGS: YES
@@ -91,6 +92,8 @@ targets:
         MICROCMS_API_KEY: $(MICROCMS_API_KEY)
         MICROCMS_SERVICE_DOMAIN: $(MICROCMS_SERVICE_DOMAIN)
         GADApplicationIdentifier: $(ADMOB_APP_ID)
+        ADMOB_BANNER_UNIT_ID: $(ADMOB_BANNER_UNIT_ID)
+        NSPhotoLibraryUsageDescription: "PurgeSwipe reads your photo library on this iPhone to find screenshots, similar shots and blurry photos. Nothing is uploaded. You can also allow access to selected photos only."
         NSUserTrackingUsageDescription: "Cho phép theo dõi để quảng cáo phù hợp hơn với bạn. Bạn vẫn dùng đầy đủ tính năng nếu từ chối."
         # Google's SKAdNetwork list (copied from Serene); refresh from the AdMob docs when it changes.
         SKAdNetworkItems:
@@ -184,6 +187,7 @@ schemes:
       storeKitConfiguration: App/StoreKit/Products.storekit
     test:
       config: Debug-Dev
+      storeKitConfiguration: App/StoreKit/Products.storekit
       gatherCoverageData: true
       coverageTargets:
         - PurgeSwipe

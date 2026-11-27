@@ -1,1 +1,1 @@
-PurgeSwipe
+PurgeSwipe: Photo Cleaner

@@ -1,1 +1,23 @@
-Mô tả đầy đủ: app làm gì, cho ai, tính năng chính.
+Bộ nhớ đầy? Dọn thư viện ảnh trong vài phút chỉ bằng vài cú vuốt.
+
+PurgeSwipe biến việc dọn dẹp thành một trò chơi thẻ nhanh gọn. Chọn một bộ ảnh, vuốt trái để bỏ vào thùng rác, vuốt phải để giữ lại. Xong chỉ cần xác nhận xóa một lần và xem bạn đã giải phóng được bao nhiêu dung lượng.
+
+CÁC BỘ ẢNH
+• Ảnh chụp màn hình: gom tất cả vào một chồng
+• Ảnh giống nhau: nhóm ảnh gần giống, tự giữ lại ảnh đẹp nhất
+• Ảnh mờ: tự tìm các ảnh bị out nét
+• Video dung lượng lớn: video nặng nhất lên đầu (Pro)
+
+RIÊNG TƯ TỪ THIẾT KẾ
+• Mọi phân tích diễn ra ngay trên iPhone
+• Không tài khoản, không tải lên đám mây, không phân tích hành vi
+• Ảnh đã xóa nằm trong Đã xóa gần đây nên vẫn khôi phục được
+
+MIỄN PHÍ VÀ PRO
+Miễn phí: vuốt không giới hạn, lần dọn đầu tiên không giới hạn, sau đó tối đa 25 ảnh xóa mỗi ngày, có quảng cáo banner.
+Pro: xóa không giới hạn, mở toàn bộ nhóm ảnh giống và mờ, bộ video lớn, không quảng cáo.
+
+PurgeSwipe Pro có gói đăng ký tự động gia hạn theo tháng hoặc năm (gói năm dùng thử miễn phí 3 ngày) hoặc mua một lần trọn đời. Gói đăng ký tự động gia hạn trừ khi bạn hủy ít nhất 24 giờ trước khi kỳ hiện tại kết thúc. Quản lý hoặc hủy trong cài đặt Apple ID.
+
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://apps-site-six.vercel.app/apps/purgeswipe/privacy

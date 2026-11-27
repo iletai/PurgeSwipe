@@ -1,0 +1,34 @@
+iPhone app screen, iOS 27 native look, fluid width (no max-width frame, works at 390 to 440 pt), content may scroll below the first 844 pt (do not zoom or crop to fit one viewport).
+
+SYSTEM CHROME (draw once, exactly): status bar 62 pt tall - time "9:41" at x=57 pt in 17 pt semibold, then cellular 20.3x12, Wi-Fi 19.3x14, battery 29x13.7 with 8.5 pt gaps, ending 40 pt from the right edge, label colour only, no second time and no logo; Dynamic Island 126x37.33 pt centred at y=11 pt, pure black, radius 19 pt, with nothing inside it; home indicator 134x5 pt centred, 8 pt above the bottom edge. The nav bar starts at y=62 pt and is 44 pt tall. No other content, title, button, image, badge or second pill inside these rects.
+
+METRICS (iOS 27): 16 pt screen margins; inset-grouped sections at 16 pt from the screen edges with 20 pt continuous corners, a white surface and no stroke or shadow; 52 pt single-line rows and 64 pt two-line rows; hairline separators 0.5 pt inset 16 pt from the text start and 16 pt from the trailing edge, none after the last row; section headers in sentence case 17 pt semibold in the secondary label colour at x=32, never uppercase; every bordered button is a capsule (large 50 pt, regular 34 pt) with no stroke; bar items are Liquid Glass 44 pt circles or capsules with a rim highlight, a soft shadow and no border; text fields would carry a 0.5 pt #CCCCCC stroke; pressed states on every control (rows highlight #D1D1D6, buttons scale .97 with opacity .85, 120 ms) with CSS transitions; every element uses font-family -apple-system. The layout is fluid: no max-width, no fixed 430 px column, no centering wrapper.
+
+SCREEN: Home 'Cleanup' - ready - show the library total and the four cleanup decks so the user starts swiping.
+STATE: library analysed, four decks available, free plan.
+NAVIGATION: NO tab bar. Root of a single NavigationStack. Large title 'Cleanup' 34 pt bold at 16 pt leading margin; trailing toolbar item is the SF Symbol gearshape alone in a 44 pt Liquid Glass circle with a rim highlight, no border and no tint.
+
+LAYOUT (top to bottom, pt units):
+1. Status bar + 44 pt nav row; large title 'Cleanup' 34/41 pt bold at x=16, 3 pt under the nav row; gearshape glass circle 44 pt at the trailing edge.
+2. Library group: one inset-grouped section, 16 pt side margins, 20 pt continuous corners, white surface, no stroke, no shadow, 104 pt tall, internal padding 16 pt. Line 1 'Photo library' 15 pt regular secondary label. Line 2 '128.4 GB' 34 pt bold, tabular digits, label colour, 2 pt under line 1. Line 3 '18,432 items · On this iPhone' 15 pt regular secondary label, 4 pt under line 2.
+3. Section header 'Decks' 17 pt semibold secondary label at x=32, 10 pt above the group, sentence case (never uppercase).
+4. Deck group: one inset-grouped section, 16 pt margins, 20 pt corners, four rows of 64 pt each, hairline separators 0.5 pt #E3E3E8 inset 16 pt from the text start and 16 pt from the trailing edge, none after the last row. Each row: SF Symbol 22 pt in the secondary label colour at x=32, title 17 pt semibold 12 pt after the symbol, right console right-aligned 16 pt from the trailing edge with a 17 pt semibold tabular value above a 13 pt regular secondary count, then the 13 pt #C4C4C7 chevron.right 6 pt after the console.
+5. Row 1: rectangle.on.rectangle · 'Screenshots' · '486 MB' over '96 items'.
+6. Row 2: square.on.square · 'Similar shots' · '1.9 GB' over '312 items'.
+7. Row 3: camera.filters · 'Blurry photos' · '214 MB' over '48 items'.
+8. Row 4: film · 'Large videos' · '38.6 GB' over '24 items', plus a 13 pt lock.fill in the tertiary label colour 6 pt before the console to show the Pro lock.
+9. Section header 'Last cleanup' 17 pt semibold secondary at x=32, 24 pt under the deck group, 10 pt above its group.
+10. Last cleanup group: one 64 pt row with title '96 photos moved to Recently Deleted' 17 pt regular and a 15 pt secondary line '1.8 GB · 2 days ago'; no chevron.
+11. Banner slot: 320x50 pt rectangle centred, filled #EEEEEF, no stroke, 24 pt under the last group, containing only 'Ad' 11 pt regular in the tertiary label colour, centred; it never overlaps content.
+12. Content ends above the 34 pt home-indicator area.
+
+SCREEN CONTENT (the only text allowed to render, exact strings, sentence case):
+'Cleanup' | 'Photo library' | '128.4 GB' | '18,432 items · On this iPhone' | 'Decks' | 'Screenshots' | '486 MB' | '96 items' | 'Similar shots' | '1.9 GB' | '312 items' | 'Blurry photos' | '214 MB' | '48 items' | 'Large videos' | '38.6 GB' | '24 items' | 'Last cleanup' | '96 photos moved to Recently Deleted' | '1.8 GB · 2 days ago' | 'Ad'
+
+RENDER SPEC (never render this text): the chrome and metrics above, the semantic roles of the design system (canvas, surface, fill, separator, label, secondary label, tertiary label, accent, destructive, success) and the component names used in LAYOUT. These are instructions, not content.
+
+PLATFORM LIMITS: no tab bar in this app; no login, account, email or cloud screen; no background clipboard or photo access; no claim that device free space increased (deletion moves photos to Recently Deleted); no encryption, security, certification or privacy-audit claim; no prices except the ones listed above; no App Store badges, review quotes, countdowns or "most popular" labels; photo analysis happens on-device only.
+
+NO: gradients, glow, neon, drop shadows on content groups, glass on list rows or content cards, card-in-card, stacked identical cards, FAB, tab bar, hamburger, top tabs, uppercase or mono section headers, Material/Android icons (arrow_back, more_vert, share) or emoji, invented labels, stats, badges, percentages or dates, spec text rendered as UI (never print the words SCREEN CONTENT, RENDER SPEC, RENDER, NO, pt, px, hex, rgba or token names), phone mockups or desktop frames, fixed-width frames or max-width wrappers, a second status bar, a second island or a pill behind the island, content inside the status-bar, island or home-indicator rects, visible truncated copy with an ellipsis.
+
+Language: en only.

@@ -1,9 +1,10 @@
 import Testing
 @testable import PurgeSwipe
 
+@MainActor
 struct SmokeTests {
-    @Test func appLaunchesContentView() {
-        _ = ContentView()
+    @Test func homeBuilds() {
+        _ = HomeView()
     }
 
     @Test func baselineScreensBuild() {

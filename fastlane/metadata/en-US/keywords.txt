@@ -1,1 +1,1 @@
-keyword,app
+photo cleaner,delete photos,free up storage,duplicate photos,screenshots,blurry,large videos,swipe

@@ -1,1 +1,23 @@
-Full description: what the app does, for whom, key features.
+Storage full? Clean your photo library in minutes with a swipe.
+
+PurgeSwipe turns cleanup into a quick card game. Pick a deck, swipe left to trash, swipe right to keep. When you are done, confirm one system deletion and see how much space you freed.
+
+DECKS
+• Screenshots: every screenshot in one stack
+• Similar shots: near-duplicates grouped, the best one auto-kept
+• Blurry photos: out-of-focus shots found for you
+• Large videos: the biggest space hogs first (Pro)
+
+PRIVATE BY DESIGN
+• Everything is analyzed on your iPhone
+• No account, no cloud upload, no analytics
+• Deleted items go to Recently Deleted, so you can still recover them
+
+FREE AND PRO
+Free: unlimited swiping, uncapped first cleanup, then up to 25 deletions a day, with banner ads.
+Pro: unlimited deletions, all similar and blurry groups, large videos deck, no ads.
+
+PurgeSwipe Pro is available as a monthly or yearly auto-renewing subscription (the yearly plan includes a 3-day free trial) or a one-time lifetime purchase. Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period. Manage or cancel in your Apple ID settings.
+
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://apps-site-six.vercel.app/apps/purgeswipe/privacy

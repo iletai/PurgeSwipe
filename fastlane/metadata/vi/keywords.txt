@@ -1,1 +1,1 @@
-tu khoa,ung dung
+dọn ảnh,xóa ảnh,giải phóng bộ nhớ,ảnh trùng,ảnh chụp màn hình,ảnh mờ,video nặng

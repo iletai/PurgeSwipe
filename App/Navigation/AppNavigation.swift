@@ -4,6 +4,8 @@ import SwiftUI
 /// Pushed screens. Recipes (tabs, deep links): skill `iletai-libs` references/navigation.md.
 enum AppRoute: Hashable, Sendable {
     case settings
+    case deck(DeckKind)
+    case review
 }
 
 /// Sheets. Hash by `id` if a payload is not Hashable.
@@ -29,6 +31,8 @@ struct AppRouteView: View {
     var body: some View {
         switch route {
         case .settings: SettingsView()
+        case .deck(let kind): DeckView(kind: kind)
+        case .review: ReviewView()
         }
     }
 }
