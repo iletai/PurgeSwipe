@@ -49,7 +49,11 @@ actor AnalysisService {
         var out: [CleanupAsset] = []
         for (index, asset) in assets.enumerated() {
             if Task.isCancelled { return }
-            out.append(CleanupAsset(id: asset.localIdentifier, byteCount: PhotoLibrary.fileSize(of: asset)))
+            out.append(CleanupAsset(
+                id: asset.localIdentifier,
+                byteCount: PhotoLibrary.fileSize(of: asset),
+                creationDate: asset.creationDate
+            ))
             if index % 25 == 0 { await emit(.progress(.screenshots, Double(index) / Double(assets.count))) }
         }
         await emit(.deck(.screenshots, out))
@@ -61,7 +65,11 @@ actor AnalysisService {
         for (index, asset) in assets.enumerated() {
             if Task.isCancelled { return }
             all.append(CleanupAsset(
-                id: asset.localIdentifier, byteCount: PhotoLibrary.fileSize(of: asset), isVideo: true, duration: asset.duration
+                id: asset.localIdentifier,
+                byteCount: PhotoLibrary.fileSize(of: asset),
+                isVideo: true,
+                duration: asset.duration,
+                creationDate: asset.creationDate
             ))
             if index % 25 == 0 { await emit(.progress(.videos, Double(index) / Double(assets.count))) }
         }
@@ -136,7 +144,11 @@ actor AnalysisService {
         #endif
         try? VNImageRequestHandler(cgImage: cgImage).perform([request])
         return Sample(
-            asset: CleanupAsset(id: asset.localIdentifier, byteCount: PhotoLibrary.fileSize(of: asset)),
+            asset: CleanupAsset(
+                id: asset.localIdentifier,
+                byteCount: PhotoLibrary.fileSize(of: asset),
+                creationDate: asset.creationDate
+            ),
             date: asset.creationDate ?? .distantPast,
             sharpness: sharpness,
             pixels: asset.pixelWidth * asset.pixelHeight,

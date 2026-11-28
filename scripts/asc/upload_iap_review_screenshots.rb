@@ -60,8 +60,13 @@ targets.each do |t|
   product_id = t[:name]
   status, existing = call(conn, token, :get, t[:get])
   if status == 200 && existing["data"]
-    puts "skip #{product_id} (has screenshot)"
-    next
+    state = existing.dig("data", "attributes", "assetDeliveryState", "state")
+    if state != "FAILED"
+      puts "skip #{product_id} (has screenshot, #{state})"
+      next
+    end
+    # A rejected image (e.g. IMAGE_INCORRECT_DIMENSIONS) keeps the IAP in MISSING_METADATA: replace it.
+    call(conn, token, :delete, "#{t[:path]}/#{existing.dig('data', 'id')}") unless ENV["DRY_RUN"]
   end
 
   if ENV["DRY_RUN"]

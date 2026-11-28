@@ -1,2170 +1,2612 @@
 {
-  "sourceLanguage" : "vi",
-  "strings" : {
-    "about.acknowledgments" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Acknowledgments"
+  "sourceLanguage": "vi",
+  "strings": {
+    "about.acknowledgments": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acknowledgments"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ghi nhận"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ghi nhận"
           }
         }
       }
     },
-    "about.acknowledgments.body" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Built with Apple SwiftUI and SF Symbols."
+    "about.acknowledgments.body": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Built with Apple SwiftUI and SF Symbols."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Được xây dựng bằng SwiftUI và SF Symbols của Apple."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Được xây dựng bằng SwiftUI và SF Symbols của Apple."
           }
         }
       }
     },
-    "about.legal" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Legal"
+    "about.legal": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legal"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pháp lý"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pháp lý"
           }
         }
       }
     },
-    "about.privacy" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Privacy Policy"
+    "about.privacy": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy Policy"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chính sách quyền riêng tư"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chính sách quyền riêng tư"
           }
         }
       }
     },
-    "about.tagline" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No account. No cloud. No analytics."
+    "about.tagline": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No account. No cloud. No analytics."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Không tài khoản. Không đám mây. Không phân tích sử dụng."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không tài khoản. Không đám mây. Không phân tích sử dụng."
           }
         }
       }
     },
-    "about.terms" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Terms of Use"
+    "about.terms": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terms of Use"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Điều khoản sử dụng"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Điều khoản sử dụng"
           }
         }
       }
     },
-    "about.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "About"
+    "about.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Giới thiệu"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giới thiệu"
           }
         }
       }
     },
-    "about.version" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Version"
+    "about.version": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Phiên bản"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phiên bản"
           }
         }
       }
     },
-    "appearance.dark" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dark"
+    "appearance.dark": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dark"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tối"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tối"
           }
         }
       }
     },
-    "appearance.light" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Light"
+    "appearance.light": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Light"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sáng"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sáng"
           }
         }
       }
     },
-    "appearance.system" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "System"
+    "appearance.system": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Theo hệ thống"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theo hệ thống"
           }
         }
       }
     },
-    "common.back" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Back"
+    "common.back": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Quay lại"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quay lại"
           }
         }
       }
     },
-    "common.close" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Close"
+    "common.close": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Đóng"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đóng"
           }
         }
       }
     },
-    "common.notNow" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Not now"
+    "common.notNow": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not now"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Để sau"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Để sau"
           }
         }
       }
     },
-    "common.ok" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OK"
+    "common.ok": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OK"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
           }
         }
       }
     },
-    "deck.backToCleanup" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Back to Cleanup"
+    "deck.backToCleanup": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back to Cleanup"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Về Dọn dẹp"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Về Dọn dẹp"
           }
         }
       }
     },
-    "deck.blurry" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Blurry photos"
+    "deck.blurry": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blurry photos"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ảnh mờ"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ảnh mờ"
           }
         }
       }
     },
-    "deck.delete" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete"
+    "deck.delete": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Xóa"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa"
           }
         }
       }
     },
-    "deck.empty.body" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "This deck is empty."
+    "deck.empty.body": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This deck is empty."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bộ này đang trống."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bộ này đang trống."
           }
         }
       }
     },
-    "deck.empty.title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nothing here"
+    "deck.empty.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing here"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Không có gì ở đây"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có gì ở đây"
           }
         }
       }
     },
-    "deck.end.body %lld" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld marked for deletion."
+    "deck.end.body %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld marked for deletion."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld mục đã đánh dấu xóa."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld mục đã đánh dấu xóa."
           }
         }
       }
     },
-    "deck.end.none" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nothing is marked for deletion."
+    "deck.end.none": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing is marked for deletion."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chưa đánh dấu mục nào để xóa."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa đánh dấu mục nào để xóa."
           }
         }
       }
     },
-    "deck.end.title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Deck finished"
+    "deck.end.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deck finished"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Đã xem hết bộ này"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã xem hết bộ này"
           }
         }
       }
     },
-    "deck.keep" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keep"
+    "deck.keep": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Giữ"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giữ"
           }
         }
       }
     },
-    "deck.kept" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kept"
+    "deck.kept": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kept"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Đã giữ"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã giữ"
           }
         }
       }
     },
-    "deck.lock.body" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Free covers 2 complete groups a day. Pro opens every group."
+    "deck.lock.body": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Free covers 2 complete groups a day. Pro opens every group."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gói miễn phí xem trọn 2 nhóm mỗi ngày. Pro mở mọi nhóm."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gói miễn phí xem trọn 2 nhóm mỗi ngày. Pro mở mọi nhóm."
           }
         }
       }
     },
-    "deck.lock.title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Free plan limit"
+    "deck.lock.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Free plan limit"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Giới hạn gói miễn phí"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giới hạn gói miễn phí"
           }
         }
       }
     },
-    "deck.markedDelete" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Marked to delete"
+    "deck.markedDelete": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Marked to delete"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Đã đánh dấu xóa"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã đánh dấu xóa"
           }
         }
       }
     },
-    "deck.position %lld %lld" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$lld of %2$lld"
+    "deck.position %lld %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld of %2$lld"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$lld trên %2$lld"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld trên %2$lld"
           }
         }
       }
     },
-    "deck.reviewCount %lld" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Review %lld"
+    "deck.reviewCount %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Review %lld"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Xem lại %lld"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xem lại %lld"
           }
         }
       }
     },
-    "deck.screenshots" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Screenshots"
+    "deck.screenshots": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Screenshots"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ảnh chụp màn hình"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ảnh chụp màn hình"
           }
         }
       }
     },
-    "deck.similar" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Similar shots"
+    "deck.similar": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Similar shots"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ảnh tương tự"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ảnh tương tự"
           }
         }
       }
     },
-    "deck.similarHeader" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Similar set · best shot kept"
+    "deck.similarHeader": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Similar set · best shot kept"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bộ ảnh tương tự · giữ ảnh đẹp nhất"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bộ ảnh tương tự · giữ ảnh đẹp nhất"
           }
         }
       }
     },
-    "deck.toDelete %lld" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld to delete"
+    "deck.toDelete %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld to delete"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld cần xóa"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld cần xóa"
           }
         }
       }
     },
-    "deck.undo" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Undo"
+    "deck.undo": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Undo"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hoàn tác"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoàn tác"
           }
         }
       }
     },
-    "deck.unlock" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unlock with Pro"
+    "deck.unlock": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlock with Pro"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mở khóa bằng Pro"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở khóa bằng Pro"
           }
         }
       }
     },
-    "deck.videoBadge %@ %@" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Video %1$@ · %2$@"
+    "deck.videoBadge %@ %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video %1$@ · %2$@"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Video %1$@ · %2$@"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video %1$@ · %2$@"
           }
         }
       }
     },
-    "deck.videos" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Large videos"
+    "deck.videos": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Large videos"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Video dung lượng lớn"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video dung lượng lớn"
           }
         }
       }
     },
-    "help.answer.1" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No. Analysis runs on this iPhone. There is no account, no cloud and no analytics."
+    "help.answer.1": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No. Analysis runs on this iPhone. There is no account, no cloud and no analytics."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Không. Việc phân tích diễn ra trên iPhone này. Không tài khoản, không đám mây, không phân tích sử dụng."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không. Việc phân tích diễn ra trên iPhone này. Không tài khoản, không đám mây, không phân tích sử dụng."
           }
         }
       }
     },
-    "help.answer.2" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "They move to Recently Deleted in Photos. Finish in Photos to remove them from the device."
+    "help.answer.2": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "They move to Recently Deleted in Photos. Finish in Photos to remove them from the device."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chúng được chuyển vào Đã xóa gần đây trong Ảnh. Hoàn tất trong Ảnh để xóa khỏi máy."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chúng được chuyển vào Đã xóa gần đây trong Ảnh. Hoàn tất trong Ảnh để xóa khỏi máy."
           }
         }
       }
     },
-    "help.answer.3" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Photos stored only in iCloud are skipped. PurgeSwipe never downloads them."
+    "help.answer.3": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos stored only in iCloud are skipped. PurgeSwipe never downloads them."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ảnh chỉ lưu trên iCloud sẽ bị bỏ qua. PurgeSwipe không bao giờ tải chúng về."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ảnh chỉ lưu trên iCloud sẽ bị bỏ qua. PurgeSwipe không bao giờ tải chúng về."
           }
         }
       }
     },
-    "help.answer.4" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "App Store purchases are handled by Apple. Use the Request a Refund link below."
+    "help.answer.4": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App Store purchases are handled by Apple. Use the Request a Refund link below."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Giao dịch App Store do Apple xử lý. Dùng liên kết Yêu cầu hoàn tiền bên dưới."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giao dịch App Store do Apple xử lý. Dùng liên kết Yêu cầu hoàn tiền bên dưới."
           }
         }
       }
     },
-    "help.contact" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Contact"
+    "help.contact": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contact"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Liên hệ"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liên hệ"
           }
         }
       }
     },
-    "help.email" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Email Support"
+    "help.email": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Email Support"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gửi email hỗ trợ"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gửi email hỗ trợ"
           }
         }
       }
     },
-    "help.faq" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Frequently Asked Questions"
+    "help.faq": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frequently Asked Questions"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Câu hỏi thường gặp"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Câu hỏi thường gặp"
           }
         }
       }
     },
-    "help.legal" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Legal"
+    "help.legal": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legal"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pháp lý"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pháp lý"
           }
         }
       }
     },
-    "help.privacy" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Privacy Policy"
+    "help.privacy": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy Policy"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chính sách quyền riêng tư"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chính sách quyền riêng tư"
           }
         }
       }
     },
-    "help.question.1" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Does PurgeSwipe upload my photos?"
+    "help.question.1": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Does PurgeSwipe upload my photos?"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PurgeSwipe có tải ảnh của tôi lên không?"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PurgeSwipe có tải ảnh của tôi lên không?"
           }
         }
       }
     },
-    "help.question.2" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Where do deleted photos go?"
+    "help.question.2": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Where do deleted photos go?"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ảnh đã xóa đi đâu?"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ảnh đã xóa đi đâu?"
           }
         }
       }
     },
-    "help.question.3" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Why are some photos missing?"
+    "help.question.3": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Why are some photos missing?"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vì sao một số ảnh không xuất hiện?"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vì sao một số ảnh không xuất hiện?"
           }
         }
       }
     },
-    "help.question.4" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "How do I request a refund?"
+    "help.question.4": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How do I request a refund?"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Làm sao để yêu cầu hoàn tiền?"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Làm sao để yêu cầu hoàn tiền?"
           }
         }
       }
     },
-    "help.refund" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Request a Refund"
+    "help.refund": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request a Refund"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Yêu cầu hoàn tiền"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yêu cầu hoàn tiền"
           }
         }
       }
     },
-    "help.terms" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Terms of Use"
+    "help.terms": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terms of Use"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Điều khoản sử dụng"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Điều khoản sử dụng"
           }
         }
       }
     },
-    "help.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Help"
+    "help.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Help"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Trợ giúp"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trợ giúp"
           }
         }
       }
     },
-    "help.website" : {
-      "localizations" : {
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Trang hỗ trợ"
+    "help.website": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trang hỗ trợ"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Support Website"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Support Website"
           }
         }
       }
     },
-    "home.ad" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Advertisement"
+    "home.ad": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advertisement"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Quảng cáo"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quảng cáo"
           }
         }
       }
     },
-    "home.analyzing %lld" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Analyzing %lld%%"
+    "home.analyzing %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyzing %lld%%"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Đang phân tích %lld%%"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang phân tích %lld%%"
           }
         }
       }
     },
-    "home.denied.body" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Turn on access in Settings so PurgeSwipe can find clutter."
+    "home.denied.body": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turn on access in Settings so PurgeSwipe can find clutter."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bật quyền trong Cài đặt để PurgeSwipe tìm ảnh thừa."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bật quyền trong Cài đặt để PurgeSwipe tìm ảnh thừa."
           }
         }
       }
     },
-    "home.denied.title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Photos access is off"
+    "home.denied.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos access is off"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Quyền truy cập Ảnh đang tắt"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quyền truy cập Ảnh đang tắt"
           }
         }
       }
     },
-    "home.empty.body" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add photos to this iPhone, then come back to clean up."
+    "home.empty.body": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add photos to this iPhone, then come back to clean up."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Thêm ảnh vào iPhone này rồi quay lại để dọn."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm ảnh vào iPhone này rồi quay lại để dọn."
           }
         }
       }
     },
-    "home.empty.title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No photos or videos yet"
+    "home.empty.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No photos or videos yet"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chưa có ảnh hoặc video"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có ảnh hoặc video"
           }
         }
       }
     },
-    "home.itemCount %lld" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld item"
+    "home.itemCount %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld item"
                 }
               },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld items"
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld items"
                 }
               }
             }
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld mục"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld mục"
           }
         }
       }
     },
-    "home.lastCleanup" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Last cleanup"
+    "home.lastCleanup": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last cleanup"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lần dọn gần nhất"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lần dọn gần nhất"
           }
         }
       }
     },
-    "home.lastCleanupBody %@ %@" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ · %2$@ moved to Recently Deleted"
+    "home.lastCleanupBody %@ %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@ moved to Recently Deleted"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ · %2$@ đã chuyển vào Đã xóa gần đây"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@ đã chuyển vào Đã xóa gần đây"
           }
         }
       }
     },
-    "home.library" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Photo library"
+    "home.library": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photo library"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Thư viện ảnh"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thư viện ảnh"
           }
         }
       }
     },
-    "home.limited.body %lld" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "PurgeSwipe sees %lld selected item."
+    "home.limited.body %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "PurgeSwipe sees %lld selected item."
                 }
               },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "PurgeSwipe sees %lld selected items."
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "PurgeSwipe sees %lld selected items."
                 }
               }
             }
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PurgeSwipe chỉ thấy %lld mục đã chọn."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PurgeSwipe chỉ thấy %lld mục đã chọn."
           }
         }
       }
     },
-    "home.limited.title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Limited access"
+    "home.limited.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Limited access"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Quyền truy cập hạn chế"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quyền truy cập hạn chế"
           }
         }
       }
     },
-    "home.loading" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Loading"
+    "home.loading": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loading"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Đang tải"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang tải"
           }
         }
       }
     },
-    "home.manageAccess" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Manage access"
+    "home.manageAccess": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage access"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Quản lý quyền truy cập"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quản lý quyền truy cập"
           }
         }
       }
     },
-    "home.needAccess" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Photos access needed"
+    "home.needAccess": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos access needed"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cần quyền truy cập Ảnh"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cần quyền truy cập Ảnh"
           }
         }
       }
     },
-    "home.onPhone" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "On this iPhone"
+    "home.onPhone": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On this iPhone"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Trên iPhone này"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trên iPhone này"
           }
         }
       }
     },
-    "home.openSettings" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open Settings"
+    "home.openSettings": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mở Cài đặt"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở Cài đặt"
           }
         }
       }
     },
-    "home.pro" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pro"
+    "home.pro": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pro"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro"
           }
         }
       }
     },
-    "home.rowSubtitle %lld %@" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$lld items · up to %2$@"
+    "home.rowSubtitle %lld %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld items · up to %2$@"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$lld mục · tối đa %2$@"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld mục · tối đa %2$@"
           }
         }
       }
     },
-    "home.title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cleanup"
+    "home.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inbox"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dọn dẹp"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hộp thư"
           }
         }
       }
     },
-    "noun.items %lld" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld item"
+    "noun.items %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld item"
                 }
               },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld items"
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld items"
                 }
               }
             }
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld mục"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld mục"
           }
         }
       }
     },
-    "noun.photos %lld" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld photo"
+    "noun.photos %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld photo"
                 }
               },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld photos"
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld photos"
                 }
               }
             }
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld ảnh"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ảnh"
           }
         }
       }
     },
-    "noun.videos %lld" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld video"
+    "noun.videos %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld video"
                 }
               },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld videos"
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld videos"
                 }
               }
             }
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld video"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld video"
           }
         }
       }
     },
-    "onboarding.body.1" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Everything happens on your iPhone. No account. No cloud."
+    "onboarding.body.1": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep the few worth keeping. Purge the rest, one swipe at a time. Everything stays on this iPhone."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mọi thứ diễn ra ngay trên iPhone của bạn. Không tài khoản. Không đám mây."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giữ vài tấm đáng giữ. Xóa phần còn lại, mỗi lần một vuốt. Mọi thứ ở lại trên iPhone này."
           }
         }
       }
     },
-    "onboarding.body.2" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PurgeSwipe reads your library on-device to find screenshots, similar shots, blurry photos and large videos. Nothing is uploaded."
+    "onboarding.body.2": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PurgeSwipe begins at your last cleanup and catches only what landed since. Old saves stay untouched."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PurgeSwipe phân tích thư viện ngay trên máy để tìm ảnh chụp màn hình, ảnh tương tự, ảnh mờ và video lớn. Không có gì được tải lên."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PurgeSwipe bắt đầu từ lần dọn trước và chỉ bắt ảnh mới xuất hiện. Ảnh cũ không bị đụng tới."
           }
         }
       }
     },
-    "onboarding.choose" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Choose photos"
+    "onboarding.choose": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose photos"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chọn ảnh"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn ảnh"
           }
         }
       }
     },
-    "onboarding.continue" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Continue"
+    "onboarding.continue": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tiếp tục"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiếp tục"
           }
         }
       }
     },
-    "onboarding.page %lld %lld" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Page %1$lld of %2$lld"
+    "onboarding.page %lld %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Page %1$lld of %2$lld"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Trang %1$lld trên %2$lld"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trang %1$lld trên %2$lld"
           }
         }
       }
     },
-    "onboarding.skip" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Skip"
+    "onboarding.skip": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skip"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bỏ qua"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bỏ qua"
           }
         }
       }
     },
-    "onboarding.title.1" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Clear your photo library, one swipe at a time."
+    "onboarding.title.1": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your screenshots have a shelf life."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dọn thư viện ảnh, mỗi lần vuốt một ảnh."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ảnh chụp màn hình có hạn sử dụng."
           }
         }
       }
     },
-    "onboarding.title.2" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Your photos stay on this iPhone"
+    "onboarding.title.2": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only new screenshots."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ảnh của bạn ở lại trên iPhone này"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉ ảnh chụp mới."
           }
         }
       }
     },
-    "paywall.benefit.1" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unlimited deletions"
+    "paywall.benefit.1": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlimited deletions"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Xóa không giới hạn"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa không giới hạn"
           }
         }
       }
     },
-    "paywall.benefit.2" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "All similar and blurry groups"
+    "paywall.benefit.2": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All similar and blurry groups"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mọi nhóm ảnh tương tự và ảnh mờ"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mọi nhóm ảnh tương tự và ảnh mờ"
           }
         }
       }
     },
-    "paywall.benefit.3" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Large videos deck"
+    "paywall.benefit.3": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Large videos deck"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bộ video dung lượng lớn"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bộ video dung lượng lớn"
           }
         }
       }
     },
-    "paywall.benefit.4" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No ads"
+    "paywall.benefit.4": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No ads"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Không quảng cáo"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không quảng cáo"
           }
         }
       }
     },
-    "paywall.title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PurgeSwipe Pro"
+    "paywall.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PurgeSwipe Pro"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PurgeSwipe Pro"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PurgeSwipe Pro"
           }
         }
       }
     },
-    "review.cancelled" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Deletion cancelled. Your selection is kept."
+    "review.cancelled": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deletion cancelled. Your selection is kept."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Đã hủy xóa. Lựa chọn của bạn vẫn được giữ."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã hủy xóa. Lựa chọn của bạn vẫn được giữ."
           }
         }
       }
     },
-    "review.capNote %lld" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Free plan allows %lld deletions a day after your first cleanup. Pro removes the limit."
+    "review.capNote %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Free plan allows %lld deletions a day after your first cleanup. Pro removes the limit."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gói miễn phí cho xóa %lld mục mỗi ngày sau lần dọn đầu tiên. Pro bỏ giới hạn này."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gói miễn phí cho xóa %lld mục mỗi ngày sau lần dọn đầu tiên. Pro bỏ giới hạn này."
           }
         }
       }
     },
-    "review.delete %@" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete %@"
+    "review.delete %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete %@"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Xóa %@"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa %@"
           }
         }
       }
     },
-    "review.done" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Done"
+    "review.done": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Xong"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xong"
           }
         }
       }
     },
-    "review.each" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Review each"
+    "review.each": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Review each"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Xem từng mục"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xem từng mục"
           }
         }
       }
     },
-    "review.empty.body" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Swipe left on a photo to mark it for deletion."
+    "review.empty.body": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Swipe left on a photo to mark it for deletion."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vuốt trái một ảnh để đánh dấu xóa."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vuốt trái một ảnh để đánh dấu xóa."
           }
         }
       }
     },
-    "review.empty.title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nothing to review"
+    "review.empty.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing to review"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chưa có gì để xem lại"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chưa có gì để xem lại"
           }
         }
       }
     },
-    "review.failed" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Could not delete. Your selection is kept. Try again."
+    "review.failed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not delete. Your selection is kept. Try again."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Không thể xóa. Lựa chọn của bạn vẫn được giữ. Hãy thử lại."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không thể xóa. Lựa chọn của bạn vẫn được giữ. Hãy thử lại."
           }
         }
       }
     },
-    "review.finish" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Finish in Photos"
+    "review.finish": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finish in Photos"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hoàn tất trong Ảnh"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoàn tất trong Ảnh"
           }
         }
       }
     },
-    "review.keepItem" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keep this item"
+    "review.keepItem": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep this item"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Giữ mục này"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giữ mục này"
           }
         }
       }
     },
-    "review.leftToday %lld %lld" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$lld of %2$lld left today"
+    "review.leftToday %lld %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld of %2$lld left today"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hôm nay còn %1$lld trên %2$lld"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hôm nay còn %1$lld trên %2$lld"
           }
         }
       }
     },
-    "review.movedBody" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "They stay there for 30 days. Finish in Photos to remove them from the device."
+    "review.movedBody": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "They stay there for 30 days. Finish in Photos to remove them from the device."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chúng nằm ở đó 30 ngày. Hoàn tất trong Ảnh để xóa khỏi máy."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chúng nằm ở đó 30 ngày. Hoàn tất trong Ảnh để xóa khỏi máy."
           }
         }
       }
     },
-    "review.movedTitle %@ %@" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Moved %1$@ (%2$@) to Recently Deleted"
+    "review.movedTitle %@ %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moved %1$@ (%2$@) to Recently Deleted"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Đã chuyển %1$@ (%2$@) vào Đã xóa gần đây"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã chuyển %1$@ (%2$@) vào Đã xóa gần đây"
           }
         }
       }
     },
-    "review.summary %@ %@" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ · %2$@"
+    "review.summary %@ %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ · %2$@"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
           }
         }
       }
     },
-    "review.title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Review"
+    "review.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Review"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Xem lại"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xem lại"
           }
         }
       }
     },
-    "settings.about" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "About"
+    "settings.about": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Giới thiệu"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giới thiệu"
           }
         }
       }
     },
-    "settings.appearance" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Appearance"
+    "settings.appearance": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appearance"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Giao diện"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giao diện"
           }
         }
       }
     },
-    "settings.contact" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Contact Support"
+    "settings.contact": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contact Support"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Liên hệ hỗ trợ"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liên hệ hỗ trợ"
           }
         }
       }
     },
-    "settings.freePlan" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Free plan"
+    "settings.freePlan": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Free plan"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gói miễn phí"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gói miễn phí"
           }
         }
       }
     },
-    "settings.help" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Help & FAQ"
+    "settings.help": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Help & FAQ"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Trợ giúp & FAQ"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trợ giúp & FAQ"
           }
         }
       }
     },
-    "settings.legal" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Legal"
+    "settings.legal": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legal"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pháp lý"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pháp lý"
           }
         }
       }
     },
-    "settings.manageSubscription" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Manage Subscription"
+    "settings.manageSubscription": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage Subscription"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Quản lý đăng ký"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quản lý đăng ký"
           }
         }
       }
     },
-    "settings.privacy" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Privacy Policy"
+    "settings.privacy": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy Policy"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chính sách quyền riêng tư"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chính sách quyền riêng tư"
           }
         }
       }
     },
-    "settings.proActive" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pro active"
+    "settings.proActive": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro active"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pro đang hoạt động"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro đang hoạt động"
           }
         }
       }
     },
-    "settings.purchases" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PurgeSwipe Pro"
+    "settings.purchases": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PurgeSwipe Pro"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PurgeSwipe Pro"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PurgeSwipe Pro"
           }
         }
       }
     },
-    "settings.rate" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rate the App"
+    "settings.rate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rate the App"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Đánh giá ứng dụng"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đánh giá ứng dụng"
           }
         }
       }
     },
-    "settings.restoreNone" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No purchases to restore."
+    "settings.restoreNone": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No purchases to restore."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Không có giao dịch nào để khôi phục."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có giao dịch nào để khôi phục."
           }
         }
       }
     },
-    "settings.restorePurchases" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Restore Purchases"
+    "settings.restorePurchases": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore Purchases"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Khôi phục giao dịch"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khôi phục giao dịch"
           }
         }
       }
     },
-    "settings.restored" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Purchases restored."
+    "settings.restored": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Purchases restored."
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Đã khôi phục giao dịch mua."
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã khôi phục giao dịch mua."
           }
         }
       }
     },
-    "settings.share" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Share the App"
+    "settings.share": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share the App"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chia sẻ ứng dụng"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chia sẻ ứng dụng"
           }
         }
       }
     },
-    "settings.support" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Support"
+    "settings.support": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Support"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hỗ trợ"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hỗ trợ"
           }
         }
       }
     },
-    "settings.systemSettings" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "System Settings"
+    "settings.systemSettings": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System Settings"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cài đặt hệ thống"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cài đặt hệ thống"
           }
         }
       }
     },
-    "settings.terms" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Terms of Use"
+    "settings.terms": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terms of Use"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Điều khoản sử dụng"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Điều khoản sử dụng"
           }
         }
       }
     },
-    "settings.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Settings"
+    "settings.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cài đặt"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cài đặt"
           }
         }
       }
     },
-    "settings.viewPlans" : {
-      "localizations" : {
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Xem các gói"
+    "settings.viewPlans": {
+      "localizations": {
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xem các gói"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "View Plans"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View Plans"
+          }
+        }
+      }
+    },
+    "home.hero.badge": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Screenshot inbox"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hộp thư ảnh chụp"
+          }
+        }
+      }
+    },
+    "home.hero.firstRun": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "First cleanup"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lần dọn đầu tiên"
+          }
+        }
+      }
+    },
+    "home.hero.newShots": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "new shots"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ảnh mới"
+          }
+        }
+      }
+    },
+    "home.hero.total %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ of screenshots"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ ảnh chụp"
+          }
+        }
+      }
+    },
+    "home.hero.since %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ since your last cleanup"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ kể từ lần dọn trước"
+          }
+        }
+      }
+    },
+    "home.hero.start": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start cleaning"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bắt đầu dọn"
+          }
+        }
+      }
+    },
+    "home.byDeck": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "By deck"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theo bộ"
+          }
+        }
+      }
+    },
+    "home.older": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Older than 30 days"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cũ hơn 30 ngày"
+          }
+        }
+      }
+    },
+    "home.older.count %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld screenshots"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ảnh chụp"
+          }
+        }
+      }
+    },
+    "home.older.body %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · not in this week’s inbox"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · ngoài hộp thư tuần này"
+          }
+        }
+      }
+    },
+    "home.needAccessBody": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PurgeSwipe needs photo access to build your screenshot inbox."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PurgeSwipe cần quyền truy cập ảnh để tạo hộp thư ảnh chụp."
+          }
+        }
+      }
+    },
+    "onboarding.kicker": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Screenshot inbox"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hộp thư ảnh chụp"
+          }
+        }
+      }
+    },
+    "onboarding.notNow": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not now"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Để sau"
+          }
+        }
+      }
+    },
+    "onboarding.howItWorks %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How it works · %lld of 3"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cách hoạt động · %lld/3"
+          }
+        }
+      }
+    },
+    "onboarding.permission.kicker": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Before iOS asks"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trước khi iOS hỏi"
+          }
+        }
+      }
+    },
+    "onboarding.title.3": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Left to purge. Right to keep."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vuốt trái để xóa. Vuốt phải để giữ."
+          }
+        }
+      }
+    },
+    "onboarding.body.3": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Each card carries its age and size. Nothing leaves the library until you confirm the batch."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mỗi thẻ hiện ngày chụp và dung lượng. Không gì rời thư viện cho tới khi bạn xác nhận."
+          }
+        }
+      }
+    },
+    "onboarding.title.4": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pin what you must keep."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ghim những gì bạn cần giữ."
+          }
+        }
+      }
+    },
+    "onboarding.body.4": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinned shots skip every purge. After five weeks, PurgeSwipe asks once more."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ảnh đã ghim sẽ bỏ qua mọi lần dọn. Sau năm tuần, PurgeSwipe sẽ hỏi lại một lần."
+          }
+        }
+      }
+    },
+    "onboarding.title.5": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PurgeSwipe reads only what it needs."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PurgeSwipe chỉ đọc những gì cần."
+          }
+        }
+      }
+    },
+    "onboarding.body.5": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full access lets the app read screenshots on device. No account, no upload, no analytics."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quyền truy cập đầy đủ để app đọc ảnh chụp ngay trên máy. Không tài khoản, không tải lên, không phân tích."
+          }
+        }
+      }
+    },
+    "onboarding.badge.device": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Runs on this iPhone"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạy trên iPhone này"
+          }
+        }
+      }
+    },
+    "onboarding.badge.screenshots": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scans screenshots only"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉ quét ảnh chụp màn hình"
+          }
+        }
+      }
+    },
+    "onboarding.badge.noAccount": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No account, no upload"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không tài khoản, không tải lên"
+          }
+        }
+      }
+    },
+    "deck.hint": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Swipe left to purge · right to keep"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vuốt trái để xóa · phải để giữ"
+          }
+        }
+      }
+    },
+    "deck.ageDays %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lldd"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ngày"
           }
         }
       }
     }
   },
-  "version" : "1.0"
+  "version": "1.0"
 }

@@ -13,6 +13,7 @@ final class UsageStore {
     struct LastCleanup: Codable, Equatable {
         var count: Int
         var bytes: Int64
+        var date: Date? = nil
     }
 
     struct State: Codable, Equatable {
@@ -36,6 +37,7 @@ final class UsageStore {
     }
 
     var lastCleanup: LastCleanup? { state.last }
+    var lastCleanupDate: Date? { state.last?.date }
 
     func isCapped(isPro: Bool) -> Bool { state.firstCleanupDone && !isPro }
 
@@ -61,7 +63,7 @@ final class UsageStore {
         mutate { state in
             if counts { state.deletedToday += count }
             state.firstCleanupDone = true
-            state.last = LastCleanup(count: count, bytes: bytes)
+            state.last = LastCleanup(count: count, bytes: bytes, date: now())
         }
     }
 

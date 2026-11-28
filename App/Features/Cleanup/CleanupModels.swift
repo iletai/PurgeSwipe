@@ -35,6 +35,13 @@ struct CleanupAsset: Identifiable, Hashable, Sendable {
     var isVideo = false
     var duration: TimeInterval = 0
     var group = 0
+    var creationDate: Date?
+
+    /// Whole days since the shot was taken, for the age stamp. nil when PhotoKit has no date.
+    var ageDays: Int? {
+        guard let creationDate else { return nil }
+        return max(0, Int(Date.now.timeIntervalSince(creationDate) / 86_400))
+    }
 }
 
 enum Decision: Sendable {
